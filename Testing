@@ -1,0 +1,10 @@
+Vocabulary:
+		SPA = Single Page Application
+		Dispatcher Servlet = Entry Point
+		Controller = Command pattern handler
+		Request Mapping  = URL and request Type
+		ViewResolver = Locates views to serve
+		Servlet-Config = Configuration file
+		POJO = Plain old JAVA object
+		Bean = Sprig configured POJO
+	
