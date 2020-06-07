@@ -7,4 +7,26 @@ Vocabulary:
 		Servlet-Config = Configuration file
 		POJO = Plain old JAVA object
 		Bean = Sprig configured POJO
+		
+MVC Structure:
+	Controller tier----
+				1. Handle Req and Res
+				2. No Business Logic
+				3. Cordinate with service and respository
+				4. Annoted with @Controller
+				5. Handle exception and view routing
+	Service tier----
+				1. Annoted with @Service
+				2. Describes verb/actions of Systems
+				3. Business logic belogs here
+				4. Ensure business object state
+				5. Transactional
+				6. Ofter same methods as respository
+	Respository tier---
+				1. Annoted with @Respository
+				2. Nouns(data) of the Systems
+				3. Data interaction
+				4. 1-to-1 object mapping
+				5. Ofter 1-to-1 database table mapping
+	 
 	
